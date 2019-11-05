@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 const OperatorButton = () => {
   return (
@@ -7,3 +7,5 @@ const OperatorButton = () => {
     </>
   );
 };
+
+export default OperatorButton;
