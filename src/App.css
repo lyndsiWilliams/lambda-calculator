@@ -6,8 +6,17 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
+.App {
+    /* display: flex;
+    flex-flow: column wrap;
+    align-items: center; */
+    width: 100%;
+}
+
 .display {
     margin-top: 25px;
+    margin-left: 4.5%;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +28,71 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .logo-container {
+      width: 90%;
+      margin: 5% 0 0 5%;
+  }
+
+  .specCont {
+      display: flex;
+      width: 90%;
+      justify-content: flex-start;
+      margin-left: 4.5%;
+  }
+
+  .specBtn {
+      display: flex;
+      justify-content: center;
+      margin: 25px 25px 25px 0;
+      height: 70px;
+      width: 70px;
+      border-radius: 50px;
+      color: white;
+      font-size: 1.6rem;
+      background-color: #2061B0;
+      box-shadow: 2px 2px #420108;
+  }
+
+  .numCont {
+      display: flex;
+      width: 60%;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      margin-left: 4.5%;
+  }
+
+  .numBtn {
+      display: flex;
+      justify-content: center;
+      margin: 25px 25px 25px 0;
+      height: 70px;
+      width: 70px;
+      border-radius: 50px;
+      color: white;
+      font-size: 1.6rem;
+      background-color: #113C78;
+      box-shadow: 2px 2px #420108;
+
+  }
+
+  .opCont {
+      display: flex;
+      width: 90%;
+      justify-content: flex-start;
+      flex-flow: column;
+  }
+
+  .opBtn {
+      display: flex;
+      justify-content: center;
+      margin: 25px 25px 25px 0;
+      height: 70px;
+      width: 70px;
+      border-radius: 50px;
+      color: white;
+      font-size: 1.6rem;
+      background-color: #3DB5E5;
+      box-shadow: 2px 2px #420108;
   }
