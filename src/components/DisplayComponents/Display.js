@@ -1,7 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
+import numbers from "../../data";
 
-const Display = () => {
-  return <div className="display">{/* Display any props data here */}</div>;
+const Display = (props) => {
+  const [num, setNum] = useState(numbers);
+
+  return <div className="display">{num}</div>;
 };
 
 export default Display;
+
+
+
+
+// Getting somewhere with this
